@@ -1,0 +1,82 @@
+.portfolio-section{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.nav-item .nav-link {
+    font-size: 18px;
+    margin: 0 17px;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #f2ba59 !important;
+    background-color: transparent;
+}
+
+.portfolio-filters .btn {
+    padding: 0;
+    border: 0;
+    outline: 0;
+    height: auto;
+    line-height: 1;
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+    position: relative;
+    transition: all .4s ease-in-out;
+    margin: 0 17px;
+    background: 0 0;
+    text-transform: capitalize;
+}
+
+.portfolio-filters .btn.active {
+    color: #f2ba59;
+}
+
+.portfolio-filters .btn:hover{
+    color: #f2ba59;
+}
+
+.portfolio-filters .btn:focus {
+    box-shadow: none;
+}
+
+.portfolio {
+   overflow: hidden;
+    position: relative;
+}
+
+.portfolio .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.6);
+    opacity: 0;
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s linear;
+    border-radius: 7px;
+    /* box-shadow: inset 0 0 0 0.5rem var(--helper-tint); */
+}
+
+.portfolio .overlay .common-heading {
+    margin: 0;
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    position: relative;
+    padding: 0 10px;
+    border:  1px solid #fff;
+}
+
+
+.portfolio:hover > .overlay {
+    opacity: 0.8;
+    cursor: pointer;
+}

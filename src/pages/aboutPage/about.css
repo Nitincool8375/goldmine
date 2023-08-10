@@ -1,0 +1,63 @@
+.about-section{
+    padding: 100px 0;
+}
+
+.about-content h4 {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 34px;
+    margin-bottom: 15px;
+}
+
+.about-content h6 {
+    color: #707070;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.about-content p{
+    font-size: 17px;
+    line-height: 26px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: "Open Sans",sans-serif;
+    color: #707070;
+    font-weight: 400;
+}
+
+/* ---------------------------------------------- Our Team Section ------------------------------------------------ */
+
+.our-team-section{
+    padding: 100px 0;
+    background-color: #f7f7f7;
+}
+
+.member-bottomside h6 {
+    /* font-family: "Open Sans",sans-serif; */
+    color: #000;
+    font-weight: 600;
+    margin-bottom: 5px;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.member-bottomside p{
+    font-size: 15px;
+    line-height: 26px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: "Open Sans",sans-serif;
+    color: #707070;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+
+@media only screen and (max-width: 767px){
+.about-content {
+    padding-top: 30px;
+}
+}
+
